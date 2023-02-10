@@ -1,5 +1,5 @@
 from flask_wtf import FlaskForm
-from wtforms.fields import (StringField, SubmitField, PasswordField, EmailField)
+from wtforms.fields import (StringField, EmailField, SubmitField, PasswordField)
 from wtforms.validators import DataRequired, URL
 from flask_ckeditor import CKEditorField
 
