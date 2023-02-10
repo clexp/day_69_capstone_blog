@@ -1,1 +1,1 @@
-web: gunicorn day_69_capstone_blog.wsgi
+web: gunicorn main:app
